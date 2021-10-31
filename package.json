@@ -1,0 +1,19 @@
+{
+  "name": "autentica-o-firebase-com-expressjs-e-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "script": "app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hirtes/Autenticacao-Firebase-com-ExpressJS-e-NodeJS.git"
+  },
+  "author": "Hirtes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hirtes/Autenticacao-Firebase-com-ExpressJS-e-NodeJS/issues"
+  },
+  "homepage": "https://github.com/Hirtes/Autenticacao-Firebase-com-ExpressJS-e-NodeJS#readme"
+}
