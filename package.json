@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Hirtes/Autenticacao-Firebase-com-ExpressJS-e-NodeJS/issues"
   },
-  "homepage": "https://github.com/Hirtes/Autenticacao-Firebase-com-ExpressJS-e-NodeJS#readme"
+  "homepage": "https://github.com/Hirtes/Autenticacao-Firebase-com-ExpressJS-e-NodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

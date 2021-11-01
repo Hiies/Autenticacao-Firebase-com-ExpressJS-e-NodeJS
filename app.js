@@ -6,7 +6,9 @@ const router = express.Router();
 app.use("/", router);
 app.use(express.static('public'))
 
-
+router.get('/', function (res, req){
+    res.sendFile(path.join(__dirname,"/public/login.html"))
+})
 
 app.listen(3000)
 console.log('http://localhost:3000/');
