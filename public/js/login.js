@@ -1,6 +1,6 @@
 
 function cadastrar() {
-    alert("working")
+    location.replace('./cadastrar.html')
 }
 function recu_pass() {
     alert("funcionando")

@@ -4,10 +4,11 @@ const path = require('path');
 const router = express.Router();
 
 app.use("/", router);
+
 app.use(express.static('public'))
 
-router.get('/', function (res, req){
-    res.sendFile(path.join(__dirname,"/public/login.html"))
+router.get('/', function (req, res){
+    res.sendFile(path.join(__dirname, "/public/login.html"))
 })
 
 app.listen(3000)
