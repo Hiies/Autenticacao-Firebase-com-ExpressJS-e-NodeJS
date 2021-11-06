@@ -18,39 +18,36 @@
             <div class="form-group">
 
 
-                    <div>
-                        <label for="Nome" class="id_email">Nome:</label>
-                        <input type="text" class="form-control" aria-label="Sizing example input"
-                            aria-describedby="inputGroup-sizing-sm" placeholder="Digite seu nome completo" id="nome">
-                    </div>
-                    <div class="form-group">
-                        <label for="Matricula" class="id_label">Matricula:</label>
-                        <input type="number" class="form-control" aria-label="Sizing example input"
-                            aria-describedby="inputGroup-sizing-sm" placeholder="Digite sua Matricula" id="matricula">
-                    </div>
-
-                    <div>
-                        <label for="email" class="id_email">Email:</label>
-                        <input type="email" class="form-control" aria-label="Sizing example input"
-                            aria-describedby="inputGroup-sizing-sm" placeholder="Digite seu E-mail" id="email">
-                    </div>
-                    <div class="form-group">
-                        <label for="Senha" class="id_label">Senha:</label>
-                        <input type="password" class="form-control" aria-label="Sizing example input"
-                            aria-describedby="inputGroup-sizing-sm" placeholder="Digite sua senha" id="password">
-                    </div>
-
-                    <div class="firstbtn">
-                        <button onclick="criar_conta()" class="btn btn-outline-primary">Cadastrar</button>
-                    </div>
-
-                    <div>
-                        <button onclick="voltar()" class="btn btn-outline-primary">Voltar</button>
-                    </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-sm" placeholder="Digite seu E-mail">
+                        <span id="span_email" class="span_email"></span>
+                </div>
+                <div class="form-group">
+                    <label for="Senha" class="id_label">Senha:</label>
+                    <input id="password"type="password" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-sm" placeholder="Digite sua senha" >
+                        <span id="span_pass" class="span_pass"></span>
+                </div>
 
 
+                <div class='div_first_btn'>
+                    <button onclick="criar_conta()" class="btn btn-outline-primary">Cadastrar</button>
+                </div>
 
-                <!-- The core Firebase JS SDK is always required and must be listed first -->
+                <div>
+                    <button onclick="voltar()" class="btn btn-outline-primary">Voltar</button>
+                </div>
+
+                    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+                    <!-- TODO: Add SDKs for Firebase products that you want to use
+                        https://firebase.google.com/docs/web/setup#available-libraries -->
+                    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+                    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>    
+
+                    
                 
                 <script src="firebase.js"></script>
 
